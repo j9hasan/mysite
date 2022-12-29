@@ -134,15 +134,17 @@ ul{
 
 /*XBOX*/
 .xbox{
-    color: white;
+    
     height: 350px;
     width: 100%;
-    background: url('img/txrep.jpg') no-repeat center center/cover;
+    background: url('img/txrep.jpg') no-repeat center center/cover lightcoral;
+    opacity: 0.9;
     margin-bottom: 20px;
 }
 .xbox .content{
     width: 40%;
     padding: 50px 0 0 30px;
+    color: rgb(38, 9, 223);
 }
 .xbox p, .banner p{
     margin: 10px 0 5px;
