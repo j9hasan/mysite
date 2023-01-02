@@ -17,13 +17,14 @@
     </div>
     <div class="container">
         <!--nav-->
-        <div class="main_nav">
+        <div class="main_nav" id="top">
             <h1 class="logo">mjh</h1>
             <ul class="main_menu">
-                <li><a href="http://html/body/div[2]/section[1]">About me</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Recent works</a></li>
-                <li><a href="#">Contact me</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#recent_works">Recent works</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#training">Training & Experience</a></li>
+                <li><a href="#contact">Contact me</a></li>
             </ul>
         </div>
         <!---SHOWCASE-->
@@ -31,12 +32,28 @@
             <div class="showcase_text">
                 <h2>Hello, I am Jubaid Hossen</h2>
                 <p>An Elecreical engineer interested in power electronics and control</p>
-                <a href="" class="btn">Download CV<i class="fas fa-chevron-right"></i></a>
-            </div>
-            
+                <a tabindex="0" href="https://drive.google.com/file/d/134sjkoWso6MT22LS-gc8oYlI0rbB9C14/view?usp=share_link" class="btn btn-lg btn-danger">Download CV <i class="fas fa-chevron-right"></i></a>
+            </div>     
         </header>
+        <!--AboutMe-->
+        <div class="section_heading" id="skill">
+            <h4 class="heading_txt">About Me</h4>
+        </div>
+        <section class="about_me ">
+            <div class="">
+                <img src="img/ppohoto.jpg" alt="">
+            </div>
+            <div class="">
+                <p class="skill_text">Hello, My name is Jubaid Hossen, and I have just compleated my bachelor's degree in Electrical and
+                    Electronic Engineering from Jashore University of Science & Technology.
+                     I grew up in Jamalpur district.<br> During my BSc, have worked on almost 30 different projects that have allowed me to
+                      put what I’ve learned in the classroom into use in a practical sense. I have documented and sharing some of them in this website.<br>
+                    </p>  
+            </div>
+
+        </section>
          <!--Skills-->
-        <div class="section_heading">
+        <div class="section_heading" id="skill">
             <h4 class="heading_txt">Skills</h4>
         </div>
         <section class="myskills">
@@ -94,9 +111,9 @@
         </section>
 
 
-        <!--Carousel-->
+        <!--Carousel Recent works-->
 
-        <section class="project_carousel spacing">
+        <section class="project_carousel spacing" id="recent_works">
             <div class="section_heading">
                 <h4 class="heading_txt">Recent works</h4>
             </div>
@@ -112,7 +129,7 @@
                     <div class="carousel-caption d-none d-md-block">
                     <h5>Memory device using register</h5>
                     <p>Stores 8bit binary information into Register from sensor</p>
-                    <a class="btn btn-primary" href="#" role="button">Details</a>
+                    <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="Coming Soon">Details <i class="fas fa-chevron-right"></i></a>
                     </div>
                 </div>
                 <div class="carousel-item data-bs-theme="dark"">
@@ -120,7 +137,7 @@
                     <div class="carousel-caption d-none d-md-block text-dark">
                     <h5>AutoCAD </h5>
                     <p>Electrical wiring diagram for 9th floor of academic building, JUST</p>
-                    <a class="btn btn-primary" href="#" role="button">Details</a>
+                    <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="Coming Soon">Details<i class="fas fa-chevron-right"></i></a>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -130,7 +147,7 @@
                     <p>Active, reactive & apparent power consumption, Real time data logging
                     into micro SD card.
                     </p>
-                    <a class="btn btn-primary" href="#" role="button">Details</a>
+                    <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="Coming Soon">Details<i class="fas fa-chevron-right"></i></a>
                     </div>
                 </div>
                 </div>
@@ -145,9 +162,9 @@
             </div>
         </section>
 
-        <!--HOME CARDS-->
-        <div class="section_heading">
-            <h4 class="heading_txt">Project</h4>
+        <!--HOME CARDS Projects-->
+        <div class="section_heading" id="projects">
+            <h4 class="heading_txt">Projects</h4>
         </div>
         <section class="home_cards">
 
@@ -156,7 +173,7 @@
                 <h4>PI controlled DC-DC converter.</h4>
                 <p>Output of converter remains constant irrespective to the input voltage.<br> To achieve this characteristics,
                  a PI controller is used along with a buck converter. </p>
-                <a href="#" class="">View Details <i class="fas fa-chevron-right"></i></a>
+                 <a tabindex="0" class="" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="Coming Soon">View Details<i class="fas fa-chevron-right"></i></a>
             </div>
             <div>
                 <img src="img/DLD_memory_device.jpg" alt="">
@@ -165,14 +182,14 @@
                 for a water flow system. Supervised by Mehedi Hasan sir as a sessional Project
                 based on EEE3101.
                 </p>
-                <a href="#" class="">View Details <i class="fas fa-chevron-right"></i></a>
+                <a tabindex="0" class="" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="Coming Soon">View Details<i class="fas fa-chevron-right"></i></a>
             </div>
             <div>
                 <img src="img/fmckt2.jpg" alt="">
                 <h4>Low Range FM Transmitter (PCB).</h4>
                 <p>Consist of a hartley oscillator with bc547 npn transistor resonating at 89.9MHz. With a condenser microphone as input,
                 voice signal can be transmitted over a 30m radius. </p>
-                <a href="#" class="">View Details <i class="fas fa-chevron-right"></i></a>
+                <a tabindex="0" class="" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="Coming Soon">View Details<i class="fas fa-chevron-right"></i></a>
             </div>
             <div>
                 <img src="img/meal.png" alt="">
@@ -181,7 +198,7 @@
                 hostel. Written in about 400 lines of pure C programming. it was a 4 credit Project
                 based on the course CSE1201.
                 </p>
-                <a href="#" class="">View Details <i class="fas fa-chevron-right"></i></a>
+                <a tabindex="0" class="" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="Coming Soon">View Details<i class="fas fa-chevron-right"></i></a>
             </div>
             <div>
                 <img src="img/reverse starter.png" alt="">
@@ -189,7 +206,7 @@
                 <p>The direction of rotation of any three-phase motor can be reversed by 
                 changing any two phases. This is done by low power relay and control unit at 70% cheaper than 
                 conventional systems. Supervised by Masud Rana Sir</p>
-                <a href="#" class="">View Details <i class="fas fa-chevron-right"></i></a>
+                <a tabindex="0" class="" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="Coming Soon">View Details<i class="fas fa-chevron-right"></i></a>
             </div>
 
             <div>
@@ -198,7 +215,7 @@
                 <p>A class AB power amplifier for audio signal amplification. PCB for this amplifier designed with
                     ISIS proteus design suite
                 </p>
-                <a href="#" class="">View Details <i class="fas fa-chevron-right"></i></a>
+                <a tabindex="0" class="" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="Coming Soon">View Details<i class="fas fa-chevron-right"></i></a>
             </div>
            
             <div>
@@ -207,7 +224,7 @@
                 <p>A simple door lock system using Radio Frequency Identification(RFID).
                 Can be extended into automatic attendence systems for employees/students.
                 </p>
-                <a href="#" class="">View Details <i class="fas fa-chevron-right"></i></a>
+                <a tabindex="0" class="" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="Coming Soon">View Details<i class="fas fa-chevron-right"></i></a>
             </div>
             <div>
                 <img src="img/data logger.jpg" alt="">
@@ -215,24 +232,21 @@
                 <p>Can determine and log active, reactive, apparent power consumption of any electrical equipment
                  along with power factor. It is possible to extend it into online energy monitoring
                 system.</p>
-                <a href="#" class="">View Details <i class="fas fa-chevron-right"></i></a>
+                <a tabindex="0" class="" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="Coming Soon">View Details<i class="fas fa-chevron-right"></i></a>
             </div>
 
         </section>
        
 
         <!--Training-->
-        <div class="section_heading">
+        <div class="section_heading" id="training">
             <h4 class="heading_txt">Training & Experience</h4>
         </div>
         <section class="banner">
             <div class="content dark ">
                 <h2>Training on Transformer Repair & HV Engineering @ WZPDCL</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
-                sapiente reprehenderit
-                doloremque hic error ullam, expedita 
-                numquam quis dolorum enim.</p>
-                <a href="#" class="btn">View Certificate <i class="fas fa-chevron-right"></i></a>
+                <p>Transformer production, LT and HT coil replacement, description of tap, core, tank and transformer repairing process.  </p>
+                <a href="https://drive.google.com/file/d/1AAnaH1hQ91YB3SlZGMiXtEwcY2KpsgS6/view?usp=share_link" class="btn btn-lg btn-danger" role="button">View Certificates<i class="fas fa-chevron-right"></i></a>
             </div>
         </section>
         <!--FOLLOW-->
@@ -244,11 +258,11 @@
         </section>
         
     </div>
-    <!--LINKS-->
-    <section class="links">
+    <!--LINKS Contact me-->
+    <section class="links" id="contact">
         <div class="links_inner">
             <ul>
-                <li><h3>Designed by.</h3></li>
+                <li><h3>Designed by</h3></li>
                 <li>Jubaid Hossen</li>
                 <li>Student, Department  of Electrical & Electronic
                     Engineering</li>
@@ -276,17 +290,23 @@
       <!--FOOTER-->
       <footer class="footer">
         <div class="footer_inner">
-            <div><i class="fa-solid fa-globe"></i><span>English (US)</span></div>
-            <ul>
-                <li><a href="mailto: jubaid.eee07@gmail.com">&copy; Jubaid Hossen</a></li>
-            </ul>
+            <div><i class="fa-solid fa-globe"></i><span>English (US)  </span></div>
+
+            <div class="mx-2 "><a href="mailto: jubaid.eee07@gmail.com">  &copy; Jubaid Hossen</a></div>
+  
         </div>
+        <div class="container"><a class="d-block mx-auto" href="#top">back to top</a></div>
       </footer>
 
     <script>
         document.querySelector('.menu_btn').addEventListener
         ('click', () => document.querySelector
         ('.main_menu').classList.toggle('show'));
+
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+        })
     </script>
 
 </body>

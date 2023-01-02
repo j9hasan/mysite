@@ -110,13 +110,27 @@ ul{
 }
 .showcase_text{
 
-    color: #eb3b5a;
+    color: #06afec;
     padding: 10px;
     font-size: large;
 }
 .big_color{
     color: #eb3b5a; 
 }
+/*About*/
+.about_me{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-gap: 80px;
+    margin-bottom: 40px;
+}
+.about_me img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float: right;
+}
+
 /*SKILLS*/
 .myskills{
     display: grid;
@@ -249,6 +263,7 @@ p.skill_head {
     display: flex;
     align-items: center;
 }
+
 .footer div i{
     margin-right: 10px;
 }
@@ -364,7 +379,18 @@ p.skill_head {
         width: 85vw;
 
     }
+    .about_me{
 
+        grid-template-columns:1fr;
+    }
+    .about_me img{
+
+        float: none;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: -35px;
+        margin-top: 20px;
+    }
     .btn{
 
         padding: 7px 10px;
