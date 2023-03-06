@@ -92,7 +92,13 @@ ul{
     margin-left: 20px;
 }
 
+/*COUNTER*/
+.counter{
+    position: -webkit-sticky; /* Safari */
+    position: fixed;
+    top: 0;
 
+}
 /*SHOWCASE*/
 .showcase{
     color: #fff;
