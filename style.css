@@ -94,9 +94,10 @@ ul{
 
 /*COUNTER*/
 .counter{
-    position: -webkit-sticky; /* Safari */
+    width: 100px;
     position: fixed;
-    top: 0;
+    top: 50px;
+    right: 0;
 
 }
 /*SHOWCASE*/
@@ -344,6 +345,13 @@ p.skill_head {
 }
 /*MOBILE VIEW*/
 @media(max-width :500px){
+    /*COUNTER*/
+    .counter{
+        top: auto;
+        bottom: 0;
+        right: 0;
+
+    }
 
     .main_nav ul{
         display: none;
