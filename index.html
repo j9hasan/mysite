@@ -132,22 +132,14 @@
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/carousel/dldpcb3d3-1.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                    <h5>Memory device using register</h5>
-                    <p>Stores 8bit binary information into Register from sensor</p>
-                    <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="Coming Soon">Details <i class="fas fa-chevron-right"></i></a>
-                    </div>
-                </div>
-                <div class="carousel-item data-bs-theme="dark"">
+                <!-- <div class="carousel-item data-bs-theme="dark"">
                     <img src="img/carousel/8thacademicfree.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block text-dark">
                     <h5>AutoCAD </h5>
                     <p>Electrical wiring diagram for 9th floor of academic building, JUST</p>
-                    <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="Coming Soon">Details<i class="fas fa-chevron-right"></i></a>
+                    <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="No data">Details<i class="fas fa-chevron-right"></i></a>
                     </div>
-                </div>
+                </div> -->
                 <div class="carousel-item">
                     <img src="img/carousel/logger2-1.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
@@ -155,7 +147,16 @@
                     <p>Active, reactive & apparent power consumption, Real time data logging
                     into micro SD card.
                     </p>
-                    <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="Coming Soon">Details<i class="fas fa-chevron-right"></i></a>
+                    <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="No data">Details<i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <img src="img/stm32/disp-driver-cm.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5>HT1621 Display Driver</h5>
+                    <p> 
+                    </p>
+                    <a tabindex="0" class="btn btn-lg btn-danger" role="button" href="#stmdispdriver">Details<i class="fas fa-chevron-right"></i></a>
                     </div>
                 </div>
                 </div>
@@ -176,27 +177,50 @@
         </div>
         <section class="home_cards">
 
+            <div id="stmdispdriver">
+                <img src="img/stm32/disp-driver-cm.jpg" alt="">
+                <h4>STM32: HT1621 Custom Display Driver.</h4>
+                <p>The HT1621 is a 128 pattern (324), memory mapping,
+                    and multi-function LCD RAM.<br>I have written the driver to interface the display with stm32 microcontroller.<br>Comm Interface: SPI</p>
+                    
+                 <a tabindex="0" class="" role="button"target="_blank" href="https://drive.google.com/drive/folders/1WkSJqv2W1It8YGTLCbhMP2D7uHy_05ce?usp=sharing">Source code<i class="fas fa-chevron-right"></i></a>
+            </div>
+
+            <div>
+                <img src="img/esp32/file-manager.jpg" alt="">
+                <h4>ESP32: File explorer.</h4>
+                <p>A simple, lightweight file manager with lvgl GUI for embedded systems<br> Display ILI9341, Resistive touch.Tested on esp32 WROOM32E</p>
+                <a tabindex="0" class="" role="button"target="_blank" href="https://github.com/j9hasan/lvgl_file_manager">Source code<i class="fas fa-chevron-right"></i></a>
+            </div>
+
+            <div>
+                <img src="img/inverter-design/inverter-800va.jpg" alt="">
+                <h4>800VA H-Bridge Inverter</h4>
+                <p>Basic H bridge with pwm gate drive using stm32. Can output max 800W of power with active cooling.</p>
+                <a tabindex="0" class="" role="button"target="_blank" href="https://drive.google.com/drive/folders/1n2hA0PQpst_Wry1ZcbfcYXxDgO_qm4Xw?usp=sharing">Source code<i class="fas fa-chevron-right"></i></a>            </div>
+
             <div>
                 <img src="img/Converter_section.png" alt="">
                 <h4>PI controlled DC-DC converter.</h4>
                 <p>Output of converter remains constant irrespective to the input voltage.<br> To achieve this characteristics,
                  a PI controller is used along with a buck converter. </p>
-                 <a tabindex="0" class="" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="Coming Soon">View Details<i class="fas fa-chevron-right"></i></a>
+                 <a tabindex="0" class="" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="No data">View Details<i class="fas fa-chevron-right"></i></a>
             </div>
-            <div>
+
+            <!-- <div>
                 <img src="img/DLD_memory_device.jpg" alt="">
                 <h4>Memory device using Shift Register (PCB).</h4>
                 <p>It can store data in 74HC195 shift register IC. This device served as data storage 
                 for a water flow system. Supervised by Mehedi Hasan sir as a sessional Project
                 based on EEE3101.
                 </p>
-                <a tabindex="0" class="" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="Coming Soon">View Details<i class="fas fa-chevron-right"></i></a>
-            </div>
+                <a tabindex="0" class="" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="No data">View Details<i class="fas fa-chevron-right"></i></a>
+            </div> -->
             <div>
                 <img src="img/emg1.jpg" alt="">
                 <h4>EMG Signal Extraction</h4>
                 <p>When we want to move our hands or any other organs, an electrical signal is produced from our brain and controls movement of that organ. We can detect this signal using Surface Electrodes and extract control information from it. We are using AD8232 to filter and amplify this signal and an ESP32 MCU for data extraction and analysis.</p>
-                <a tabindex="0" class="" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="Coming Soon">View Details<i class="fas fa-chevron-right"></i></a>
+                <a tabindex="0" class="" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="No data">View Details<i class="fas fa-chevron-right"></i></a>
             </div>
 
             <div>
@@ -204,7 +228,7 @@
                 <h4>Low Range FM Transmitter</h4>
                 <p>Consist of a hartley oscillator with bc547 npn transistor resonating at 89.9MHz. With a condenser microphone as input,
                 voice signal can be transmitted over a 30m radius. </p>
-                <a tabindex="0" class="" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="Coming Soon">View Details<i class="fas fa-chevron-right"></i></a>
+                <a tabindex="0" class="" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="No data">View Details<i class="fas fa-chevron-right"></i></a>
             </div>
             <div>
                 <img src="img/meal.png" alt="">
@@ -221,7 +245,7 @@
                 <p>The direction of rotation of any three-phase motor can be reversed by 
                 changing any two phases. This is done by low power relay and control unit at 70% cheaper than 
                 conventional systems. Supervised by Masud Rana Sir</p>
-                <a tabindex="0" class="" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="Coming Soon">View Details<i class="fas fa-chevron-right"></i></a>
+                <a tabindex="0" class="" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="No data">View Details<i class="fas fa-chevron-right"></i></a>
             </div>
 
             <div>
@@ -230,7 +254,7 @@
                 <p>A class AB power amplifier for audio signal amplification. PCB for this amplifier designed with
                     ISIS proteus design suite
                 </p>
-                <a tabindex="0" class="" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="Coming Soon">View Details<i class="fas fa-chevron-right"></i></a>
+                <a tabindex="0" class="" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="No data">View Details<i class="fas fa-chevron-right"></i></a>
             </div>
 
             <div>
@@ -239,7 +263,7 @@
                 <p>A simple door lock system using Radio Frequency Identification(RFID).
                 Can be extended into automatic attendence systems for employees/students.
                 </p>
-                <a tabindex="0" class="" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="Coming Soon">View Details<i class="fas fa-chevron-right"></i></a>
+                <a tabindex="0" class="" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="No data">View Details<i class="fas fa-chevron-right"></i></a>
             </div>
             <div>
                 <img src="img/data logger.jpg" alt="">
@@ -247,7 +271,7 @@
                 <p>Can determine and log active, reactive, apparent power consumption of any electrical equipment
                  along with power factor. It is possible to extend it into online energy monitoring
                 system.</p>
-                <a tabindex="0" class="" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="Coming Soon">View Details<i class="fas fa-chevron-right"></i></a>
+                <a tabindex="0" class="" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="info." data-bs-content="No data">View Details<i class="fas fa-chevron-right"></i></a>
             </div>
 
         </section>
