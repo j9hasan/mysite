@@ -329,8 +329,8 @@
           <h4>800VA UPS</h4>
           <p>
             Industrial Uninterrupted Power Supply (UPS) using stm32f103c8t6<br />
-            My role was to develop the Firmware, PCB Design and Inverter
-            section of this project
+            My role was to develop the Firmware, PCB Design and Inverter section
+            of this project
           </p>
           <a
             tabindex="0"
@@ -342,13 +342,13 @@
           ></a>
         </div>
 
-        <div>
+        <div id="fan-pcb">
           <img src="img/pcb-design/fan-2d-top.PNG" alt="" />
           <h4>17" LiFePO4 Rechargeable Fan</h4>
           <p>
-            Designed a 17-inch rechargeable fan powered by 
-            LiFePO4 battery, featuring an integrated smart charging system and
-            ultra low power consumption. <br />MCU: APM32 <br />
+            Designed a 17-inch rechargeable fan powered by LiFePO4 battery,
+            featuring an integrated smart charging system and ultra low power
+            consumption. <br />MCU: APM32 <br />
             <strong>Production till October-25: 1 Million</strong>
           </p>
           <a
@@ -373,7 +373,7 @@
           <img src="img/esp32/ota.png" alt="" />
           <h4>ESP32 OTA Firmware update</h4>
           <p>
-            Integrated OTA update feature of a portable handleld UHF scanner. 
+            Integrated OTA update feature of a portable handleld UHF scanner.
           </p>
           <a
             tabindex="0"
@@ -536,5 +536,16 @@
       type="text/javascript"
       src="https://www.freevisitorcounters.com/en/home/counter/1142666/t/6"
     ></script>
+    <script>
+      window.addEventListener("load", () => {
+        if (window.location.hash === "#inverter") {
+          const el = document.querySelector("#inverter");
+          el.classList.add("highlight");
+        } else if (window.location.hash === "#fan-pcb") {
+          const el = document.querySelector("#fan-pcb");
+          el.classList.add("highlight");
+        }
+      });
+    </script>
   </body>
 </html>

@@ -10,6 +10,14 @@ body{
     line-height: 1.5;
     background-color:#e2d7d7;
 }
+.highlight {
+  animation: flash 5s ease-out;
+}
+@keyframes flash {
+  0% { background-color: #ffff99; }
+  100% { background-color: transparent; }
+}
+
 a{
     color: #21245a;
     text-decoration: none;
